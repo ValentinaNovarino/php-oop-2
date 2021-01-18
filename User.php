@@ -17,6 +17,7 @@ class User {
         $this->email = $_email;
     }
 
+    // metodo per settare l'età
     public function setAge($_age) {
         if(is_numeric($_age) && $_age > 0 && $_age < 120) {
             $this->age = $_age;
@@ -25,6 +26,7 @@ class User {
         };
     }
 
+    // metodo per restituire l'età
     public function getAge() {
         return $this->age;
     }
