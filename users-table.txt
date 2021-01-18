@@ -1,0 +1,13 @@
+Definire la struttura di una tabella users che contiene i dati degli utenti di un blog
+
+USERS
+
+user_id
+name
+lastname
+userName
+password
+email
+age
+telephone
+address
