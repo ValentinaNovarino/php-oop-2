@@ -10,4 +10,8 @@ class User {
     public $age;
 }
 
+// creare alcune istanze della classe User per stampare i dati degli utenti
+$user1 = new User;
+$user2 = new User;
+$user3 = new User;
 ?>
