@@ -16,5 +16,17 @@ class User {
         $this->password = $_password;
         $this->email = $_email;
     }
-}
+
+    public function setAge($_age) {
+        if(is_numeric($_age) && $_age > 0 && $_age < 120) {
+            $this->age = $_age;
+        } else {
+            throw new Exception('Età non valida');
+        };
+    }
+
+    public function getAge() {
+        return $this->age;
+    }
+};
 ?>

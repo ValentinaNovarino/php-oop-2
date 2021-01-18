@@ -9,21 +9,21 @@ $user3 = new User('GNeri45');
 
 $user1->name = 'Luca';
 $user1->lastname = 'Rossi';
-$user1->age = 32;
+$user1->setAge(32);
 $user1->telephone = '123456';
 $user1->address = 'Via dei mille 20 Torino';
 var_dump($user1);
 
 $user2->name = 'Silvia';
 $user2->lastname = 'Verdi';
-$user2->age = 22;
+$user2->setAge(22);
 $user2->telephone = '123456';
 $user2->address = 'Via dei mille 20 Torino';
 var_dump($user2);
 
 $user3->name = 'Giulio';
 $user3->lastname = 'Neri';
-$user3->age = 45;
+$user3->setAge(45);
 $user3->telephone = '123456';
 $user3->address = 'Via dei mille 20 Torino';
 var_dump($user3);
